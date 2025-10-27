@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* CSS Document */
+*{box-sizing: border-box}
+.box{
+	width: 150px; height: 150px; border: 1px solid red; padding:10px
+	}
+.img-100{
+	width: 100%; height: auto
+}
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 16px; color: #666666; margin: 0
+}
+header{
+	width: 100%; height: 60px; background-color: orange; text-transform: capitalize
+}
+
+.logo{
+     float: left
+}
+.menu{
+	float: right; padding-top: 20px
+}
+.menu a{
+	 padding: 10px 20px; text-decoration: none; color: white; text-transform: capitalize
+}
+.menu a:hover{
+	color: red
+}
+main{
+	width: 100%; min-height: 500px; text-transform: capitalize; margin: 0 auto;  clear: both
+	
+}
+.in-hoa{text-transform: capitalize}
+.container{
+	width: 80%; margin: 0 auto; }
+
+.w25{
+	width: 25%; float: left; padding:15px;
+}
+.w40{
+	width: 40%; float: left; padding: 15px; min-height: 300px
+}
+
+.w60{
+	width: 60%; float: right; padding: 15px; min-height: 300px
+}
+.vien-xam{
+	width: 100%; min-height: 300px; border: 1px solid grey ; border-radius: 10px; padding:20px; margin-bottom: 20px;
+}
+
+.vien{
+	width: 100%; min-height: 200px; border: 1px solid blue ; border-radius: 10px; padding:10px; margin-top: 40px; text-align: center
+}
+.text-xanh {
+	
+color: blue; text-transform: capitalize
+}
+.bo-goc{
+	border-radius: 10px; 
+}
+.tour{text-transform: capitalize; color: blue; font-size:20px
+	
+}
+.gia{
+	color: red; font-weight: 500 }
+		
+.form-control{
+		padding: 8px; margin-bottom: 10px; margin-top: 10px; width: 100%
+			 
+	}
+.btn-gui{ 
+background-color:#61A0DE; color: white; border-radius: 5px; border: 1px solid #61A0DE; padding: 10px
+}
+.btn-gui:hover{
+	color: white; background-color: #113A84
+}
+.button-reset{
+	background-color: white; color: #61A0DE; padding: 10px;	border-radius: 5px;border: 1px solid #61A0DE
+	}
+.button-reset:hover{
+	color: white; background-color: #113A84 }
+footer{
+	width: 100%; height: 50px; background-color: orange; clear: both; color: white;text-align: center;line-height: 50px
+}
